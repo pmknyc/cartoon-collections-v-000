@@ -16,13 +16,13 @@ end
 # iterate over all words in array
 # return 'true' if any word is > 4 letters long
 def long_planeteer_calls(words)
-  words.any? {|word| word.length > 4}  
+  words.any? {|word| word.length > 4}
 end
 
 def find_the_cheese(foods)
   foods.detect do |food|
-   food == "cheddar" || 
-   food == "gouda" || 
+   food == "cheddar" ||
+   food == "gouda" ||
    food == "camembert"
   end
 end
